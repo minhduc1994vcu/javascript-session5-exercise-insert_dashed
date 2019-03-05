@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let an_array = [];
+    let variable = prompt("input");
+    for (let i = 0; i < variable.length; i++) {
+        if (variable[i] % 2 === 0 && variable[i + 1] % 2 === 0) {
+            an_array.push(variable[i], '-');
+        } else {
+        }an_array.push(variable[i]);
+    }
+    document.write(an_array.join(" "));
+</script>
+</body>
+</html>
